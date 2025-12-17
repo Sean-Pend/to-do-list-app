@@ -1,0 +1,31 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Input and button styling */
+input, button {
+    padding: 5px;
+    margin: 5px;
+}
+
+/* to-do list styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Individual list item */
+li {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* edit input inside list items */
+.edit-input {
+    width: 70%;
+}
